@@ -6,7 +6,7 @@
 
 body{
     background-image: url("img/Blue_background_Brawl_Stars.jfif");
-    background-size: cover;
+    background-size: contain;
 }
 .pergunta{
     font-family: face;
@@ -14,14 +14,35 @@ body{
     text-shadow: 3px;
     text-shadow: 6px 2px 0px #000000;
 }
+.quest{
+    display: flex;
+    background-color: #e9b200;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 5px;
+    border-top: hsl(46, 100%, 71%);
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-width:5px;
+    border-top-style: solid;
+    border-top-width:5px;
+}
+.escrit{
+    font-family: face;
+    color: white;
+    text-shadow: 3px;
+    text-shadow: 6px 2px 0px #000000;
+}
 
 .boxper{
-    height: 200px;
+    margin-bottom: 10px;
 }
 .options{
     background-color: rgb(19, 49, 75,0.6);
     display: flex;
     border-radius: 10px;
+    
 }
 ul{
    list-style-type: none;
@@ -31,7 +52,6 @@ ul{
     background-color: rgb(48, 55, 87);
     border-radius: 5px;
     padding-left: 15px;
-    margin-bottom: 20px; 
     height: 60px;
     border-color: #000000;
     border-top: #8d7292;
@@ -51,4 +71,8 @@ ul{
     border-style: solid;
     border-radius: 4px;
     border-width: 2px;
+    font-family: face;
+    border-color: #000000;
+    color: white;
+    margin-bottom: 10px;
 }
