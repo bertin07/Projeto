@@ -1,4 +1,15 @@
+@font-face {
+    font-family: face;
+    src: url(Nougat-ExtraBlack.ttf);
+}
+
 body{
     background-image: url("img/Blue_background_Brawl_Stars.jfif");
     background-size: cover;
+}
+.pergunta{
+    font-family: face;
+    color: white;
+    text-shadow: 3px;
+    text-shadow: 6px 2px 0px #000000;
 }
