@@ -19,14 +19,14 @@ body{
     background-color: #e9b200;
     justify-content: center;
     align-items: center;
-    border-style: solid;
     border-width: 5px;
     border-top: hsl(46, 100%, 71%);
-    border-top-width: 10px;
     border-top-style: solid;
     border-top-width:5px;
-    border-top-style: solid;
-    border-top-width:5px;
+    border-bottom: hsl(34, 87%, 41%);
+    border-bottom-style: solid;
+    border-bottom-width:5px;
+    border-radius: 3px;
 }
 .escrit{
     font-family: face;
