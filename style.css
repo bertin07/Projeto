@@ -76,3 +76,16 @@ ul{
     color: white;
     margin-bottom: 10px;
 }
+.lista_de_opcoes{
+    width: 100%;
+}
+
+.brawler{
+    display: flex;
+    justify-content: end;
+}
+@media (width < 830px) {
+    .brawler{
+        display: none;
+    }
+  }
