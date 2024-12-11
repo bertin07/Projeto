@@ -13,9 +13,15 @@ btn.addEventListener("click",function(){
     }
 });
 
-var shelly = document.getElementById("shelly_sound")
-var btn = document.getElementById("pin");
-btn.addEventListener("click",function(){
+var shelly = document.getElementById("shelly_sound");
+var p1 = document.getElementById("pin");
+p1.addEventListener("click",function(){
         shelly.muted = false;
         shelly.play();
+});
+
+var img_1 = document.getElementById("p1_img");
+img_1.addEventListener("click",function(){
+    shelly.muted = false;
+    shelly.play();
 });
