@@ -25,3 +25,31 @@ img_1.addEventListener("click",function(){
     shelly.muted = false;
     shelly.play();
 });
+
+
+
+var el_primo = document.getElementById("primo_sound");
+var p2 = document.getElementById("pin_elprimo");
+p2.addEventListener("click",function(){
+        el_primo.muted = false;
+        el_primo.play();
+});
+
+var p2 = document.getElementById("p2_img");
+p2.addEventListener("click",function(){
+        el_primo.muted = false;
+        el_primo.play();
+});
+
+var poco = document.getElementById("poco_sound");
+var p3 = document.getElementById("poco_pin");
+p3.addEventListener("click",function(){
+        poco.muted = false;
+        poco.play();
+});
+
+var p3 = document.getElementById("p3_img");
+p3.addEventListener("click",function(){
+        el_primo.muted = false;
+        el_primo.play();
+});
