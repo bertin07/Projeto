@@ -50,6 +50,6 @@ p3.addEventListener("click",function(){
 
 var p3 = document.getElementById("p3_img");
 p3.addEventListener("click",function(){
-        el_primo.muted = false;
-        el_primo.play();
+        poco.muted = false;
+        poco.play();
 });
