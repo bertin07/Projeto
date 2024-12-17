@@ -6,7 +6,6 @@
 
 body{
     background-image: url("img/Blue_background_Brawl_Stars.jfif");
-    background-size: contain;
 }
 .pergunta{
     font-family: face;
@@ -86,8 +85,10 @@ ul{
 #pin{
     margin-left: 10px;
 }
+.ocultar{
+    display: none;
+}
 .op{
-    display: flex;
     background-color: rgb(6, 27, 44);
     opacity: 0.8;
     border-style: solid;
@@ -143,5 +144,5 @@ ul{
         font-size: 30px;
         margin-bottom: 40px;
     }
-
+    
 }

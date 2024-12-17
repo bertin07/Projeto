@@ -53,3 +53,5 @@ p3.addEventListener("click",function(){
         poco.muted = false;
         poco.play();
 });
+// paginas de resultados
+        
