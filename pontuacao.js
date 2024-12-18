@@ -1,3 +1,31 @@
+function validar() {
+    const contTotal = 10;
+    let tudoRespondido = true;
+
+    for (let i = 1; i <= contTotal; i++) {
+        const opcoes = document.getElementsByName(`pergunta${i}`);
+        let respondido = false;
+
+        for (const opcao of opcoes) {
+            if (opcao.checked) {
+                respondido = true;
+                break;
+            }
+        }
+
+        if (!respondido) {
+            tudoRespondido = false;
+            alert(`Você não respondeu a pergunta todas as perguntas`);
+            break;
+        }
+    }
+
+    if (tudoRespondido) {
+        resul(); 
+    }
+}
+
+
 function resul () {
 
     let contEdgar = 0
@@ -21,7 +49,15 @@ function resul () {
         }    
     })
 
-    let resultado = `Edgar = ${contEdgar}<br> Poco = ${contPoco}<br> El Primo = ${contElPrimo}<br> Leon = ${contLeon}`
+    let total = contPoco + contElPrimo + contLeon + contEdgar;
+
+    let percPoco = total > 0 ? ((contPoco / total) * 100).toFixed(2) : 0;
+    let percElPrimo = total > 0 ? ((contElPrimo / total) * 100).toFixed(2) : 0;
+    let percLeon = total > 0 ? ((contLeon / total) * 100).toFixed(2) : 0;
+    let percEdgar = total > 0 ? ((contEdgar / total) * 100).toFixed(2) : 0;
+
+
+    let resultado = `Edgar = ${percEdgar}<br> Poco = ${percPoco}<br> El Primo = ${percElPrimo}<br> Leon = ${percLeon}`
 
     document.getElementById('resultado').innerHTML = resultado
 
