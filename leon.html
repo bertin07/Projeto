@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edgar</title>
-    <link rel="stylesheet" href="">
+    <title>Leon</title>
+    <link rel="stylesheet" href="leon.css">
 </head>
 <body>
     
-    <img src="" alt="">
-    <h1 id="voto"></h1>
-    <p></p>
-
+    <div class="q">
+        <h1>Você é o<br><span id="seg_lin">Edgar</span></h1>
+    </div>
+    <div class="resp">
+        <div id="foto">
+            <img src="img/leon.png" alt="" width="300">
+        </div>
+        <h1 id="voto"></h1>
+        <p>Você é estratégico, ágil e prefere agir de forma mais solitária. Sua inteligência e rapidez são suas maiores virtudes, e você gosta de planejar suas ações antes de tomar qualquer decisão. Você tem um lado misterioso e uma habilidade única de se esconder e surpreender os outros.</p>
+    </div>
+        
     <script>
         let contEdgar = localStorage.getItem('leon')
         document.querySelector('#voto').innerHTML = 'votos: ' + contLeon

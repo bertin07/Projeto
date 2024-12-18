@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edgar</title>
-    <link rel="stylesheet" href="">
+    <title>Poco</title>
+    <link rel="stylesheet" href="poco.css">
 </head>
 <body>
     
-    <img src="" alt="">
-    <h1 id="voto"></h1>
-    <p></p>
-
+    <div class="q">
+        <h1>Você é o<br><span id="seg_lin">Poco</span></h1>
+    </div>
+    <div class="resp">
+        <div id="foto">
+            <img src="img/poco.png" alt="" width="300">
+        </div>
+        <h1 id="voto"></h1>
+        <p>Você tem uma personalidade alegre, sempre tentando espalhar boas energias e ajudar os outros ao seu redor. Você gosta de estar com as pessoas e tem um coração generoso, sempre pronto para dar suporte aos seus amigos. Sua habilidade de cura e sua energia positiva fazem de você um ótimo aliado!</p>
+    </div>
+        
     <script>
         let contEdgar = localStorage.getItem('poco')
         document.querySelector('#voto').innerHTML = 'votos: ' + contPoco

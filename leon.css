@@ -31,7 +31,7 @@ body{
 #foto{
     display: flex;
     justify-content: center;
-    background-image: url(img/edgarbackground.jpg);
+    background-image: url(img/fundo_Leon.jpg);
     background-position: 60%;
     background-size: 100%;
     border-width: 20px;
@@ -39,6 +39,7 @@ body{
     width: 95%;
     border-style: solid;
 }
+
 .resp{
     display: flexbox;
     justify-content: center;

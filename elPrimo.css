@@ -41,7 +41,7 @@ body{
 }
 
 .resp{
-    display: flex;
+    display: flexbox;
     justify-content: center;
     background-color: rgba(6, 27, 44, 0.8);
     border-style: solid;
